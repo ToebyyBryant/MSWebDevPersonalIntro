@@ -1,0 +1,30 @@
+body {
+    background-color: #eeb5b5;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+}
+
+h1, h2 {
+    display: flexbox;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    display: flexbox;
+    text-align: center;
+}
+
+footer {
+    display: flexbox;
+    background-color: #f77777;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
